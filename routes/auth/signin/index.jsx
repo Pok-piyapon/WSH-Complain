@@ -14,8 +14,8 @@ export default function SignIn() {
 
     const worldState = useContext(AppContext)
     const router = useNavigation()
-    const [email, setEmail] = useState("s64209010013@kktech.ac.th")
-    const [password, setPassword] = useState("Lion4333_-")
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
     return (<>
         <Wave>
             <View style={styles.SignIn.Layout}>
